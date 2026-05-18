@@ -3,7 +3,7 @@
 :root {
   --bg: #888888;         
   --surface: #cecececc; 
-  --text: #0f172a;  
+  --text: #363636;  
   --accent: #000000; 
   --header: #cecececc; 
 }
@@ -49,11 +49,15 @@ body {
     
     
     
+    
 
     &__title {
         font-weight: 700;
         color: var(--text);
-        padding-left: 200px;
+        
+        
+     
+        
     }
 
     &__list {
@@ -61,6 +65,8 @@ body {
         align-items: center;
         justify-content: space-between;
         gap: 35px;
+        
+       
 
         &_item a {
             color: var(--text);
@@ -78,6 +84,7 @@ body {
             background-color: var(--bg);
             color: var(--text);
             border-radius: 15px;
+            
             
             
         }
@@ -162,10 +169,14 @@ body {
         }
 
         &_link {
-            padding: 20px 168px;
+            display: block;
+            height: 40px;
             background: var(--bg);
             border-radius: 15px;
             color: var(--text);
+            text-align: center;
+            padding-top: 11px;
+            
             
 
 

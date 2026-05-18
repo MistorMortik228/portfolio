@@ -22,9 +22,9 @@ export default function Footer() {
           <div className="footer__social">
             <h3 className='footer__social_title'>{t('socials')}</h3>
             <div className="footer__social_img">
-              <a href="https://t.me/MistorMortik"><img width={50} src={telegram} alt="telegram" /></a>
-              <a href="https://instagram.com/yusufovicch"><img width={50} src={instagram} alt="instagram" /></a>
-              <a href="https://vk.com/yusufovasadbek"><img width={50} src={vk} alt="vk" /></a>
+              <a href="https://t.me/MistorMortik"><img width={40} src={telegram}  alt="telegram" /></a>
+              <a href="https://instagram.com/yusufovicch"><img width={40} src={instagram} alt="instagram" /></a>
+              <a href="https://vk.com/yusufovasadbek"><img width={40} src={vk} alt="vk" /></a>
             </div>
           </div>
         </div>
